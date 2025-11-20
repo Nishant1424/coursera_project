@@ -34,13 +34,12 @@
   </div>
 
   <!-- Header & Navigation Bar (Contact info moved here) -->
-  <header class="sticky top-0 z-40 bg-gray-900/90 backdrop-blur-md shadow-lg">
+  <header id="home" class="sticky top-0 z-40 bg-gray-900/90 backdrop-blur-md shadow-lg">
     <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-3">
       <!-- LEFT SIDE GROUP: Name/Logo + Contact Details (New location) -->
       <div class="flex flex-col justify-center">
         <!-- Styled Name with Home Icon -->
         <a href="#about" class="styled-name flex items-center">
-          <i data-lucide="home" class="w-5 h-5 mr-2 text-green-400"></i>
           Nishant Mallick
         </a>
         <!-- Contact Info Under Name -->
@@ -55,7 +54,6 @@
           </div>
         </div>
       </div>
-
       <!-- Navigation Options (4 items - Contact removed) -->
       <div class="space-x-4 hidden md:flex">
         <a href="#about"
@@ -210,11 +208,10 @@
     <!-- The Contact Section has been removed as requested. -->
 
   </main>
-
+  <a href="#about" class="home-icon"><i data-lucide="home" class="w-5 h-5 mr-2 text-green-400"></i></a>
   <footer class="text-center py-8 border-t border-gray-800 text-gray-500 text-sm">
     &copy; 2025 Nishant Mallick Portfolio.
   </footer>
-
   <!-- Client-Side JavaScript for Recommendations -->
   <script src="script.js"></script>
 </body>
