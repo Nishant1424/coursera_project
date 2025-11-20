@@ -62,8 +62,3 @@ body {
   background-color: rgba(0, 0, 0, 0.75);
   transition: opacity 0.3s ease;
 }
-.home-icon{
-  position: fixed;
-  right: 5px;
-  bottom: 11px;
-}
